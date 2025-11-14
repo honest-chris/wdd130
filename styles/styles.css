@@ -8,8 +8,8 @@ aside   {
     margin: 20px auto;
     border: 1px solid #89f4ee;
     padding: 15px;
-    background-color: #76bbca;
-    color: #333;
+    background-color: #5f57b4;
+    color: #0c0a0a;
     text-align: center;
 }
 
@@ -21,7 +21,7 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid #89f4ee;
+    border: 1px solid #0d18f1;
     padding: 5px;
     box-shadow: 2px 2px 8px rgba (0,0,0,0.3);
 }
