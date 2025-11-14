@@ -7,9 +7,9 @@ main {
 aside   {
     width: 300px;
     margin: 20px auto;
-    border: 1px solid #cd8484;
+    border: 1px solid #89f4ee;
     padding: 15px;
-    background-color: #6753e7;
+    background-color: #f1f1f4;
     color: #333;
     text-align: center;
 }
@@ -31,7 +31,7 @@ p {
 
 footer {
     margin-top: 20px;
-    border-top: 2px solid #6cadcb;
+    border-top: 2px solid #dc36b8;
     text-align: center;
     padding-top: 10px;
 }
