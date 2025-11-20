@@ -2,7 +2,8 @@
   --primary-color: #0b5563;
   --secondary-color: #aba7dc21;
   --accent1-color: #0fa3b1;
-  --accent2-color: #5ad491;        
+  --accent2-color: #5ad491;
+  --muted-color: #f1f6f7;        
   --heading-font: "Georgia", "Times New Roman", serif;   
   --body-font: "Segoe UI", "Helvetica Neue", Arial, sans-serif; 
 }
@@ -27,7 +28,14 @@ header, main, footer {
   margin: 0 auto;
 }
 
-.logo {
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+
+header img {
   height: 56px;
   width: auto;
 }
@@ -41,8 +49,7 @@ nav a {
   display: inline-block;
 }
 
-h1,
-h2 {
+h1, h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
@@ -55,7 +62,6 @@ nav, p, section, article {
 .socialmedia a {
   text-decoration: none;
 }
-
 
 
 .hero {
