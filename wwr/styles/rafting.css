@@ -19,7 +19,7 @@
 
 body {
   font-family: var(--body-font);
-  background-color: #f1f5f5;
+  background-color: var(--accent-color);
   color: #000000;
 }
 
@@ -80,7 +80,7 @@ h2 {
   text-align: center;
   font-family: var(--heading-font);
   font-size: 2rem;
-  color: #ffffff;
+  color: var(--accent-color);
   background-color: #6fb6e4; 
 }
 
@@ -97,7 +97,8 @@ h2 {
   font-size: 0.95rem;
 }
 
-.hero article .client-photo {
+.hero article img {
+  float: right;
   width: 120px;
   height: auto;
   margin-left: 16px;
