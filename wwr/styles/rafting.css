@@ -41,13 +41,10 @@ header nav {
   display: flex;
   justify-content: center;
   max-width: fit-content;
-}
-
-header nav {
-background-color: #f4f6f9;
-border-radius: 999px;
-padding: 0.4rem 0.8rem;
-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  background-color: #f4f6f9;
+  border-radius: 999px;
+  padding: 0.4rem 0.8rem;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 }
 
 header nav a {
