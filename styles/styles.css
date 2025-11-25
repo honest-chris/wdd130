@@ -6,9 +6,9 @@ main {
 aside   {
     width: 300px;
     margin: 20px auto;
-    border: 1px solid #89f4ee;
+    border: 1px solid #060606;
     padding: 15px;
-    background-color: #5f57b4;
+    background-color: #f6f4f3;
     color: #0c0a0a;
     text-align: center;
 }
@@ -32,23 +32,23 @@ p {
 
 footer {
     margin-top: 20px;
-    border-top: 2px solid #61e77e;
+    border-top: 2px solid #3d63fe;
     text-align: center;
     padding-top: 10px;
 }
 
 nav  {
-    background-color: #7ef959;
+    background-color: #382be1;
     padding: 10px;
 }
 
 nav a {
-    color: rgb(84, 33, 237);
+    color: rgb(244, 243, 245);
     padding: 10px;
     display: block;
     text-decoration: none;
 }
 
 h1  {
-    color: #041e44;
+    color: #101010;
 }
