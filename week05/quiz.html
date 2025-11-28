@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Quiz form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <main>
+        <h1>✅ Basic HTML and CSS Quiz</h1>
+        <form>
+            <div class="quiz-item">
+                <label for="q1">1. Which attribute is used to make a form input required before submission?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+
+            <div class="quiz-item">
+                <label for="q1">2. In your own words, explain the difference between an inline
+                    element and a block element in HTML/CSS
+                </label>
+                <textarea id="q2" name="q2"></textarea>
+            </div>
+
+            <div class="quiz-item">
+                <label for="q1">3. Which HTML element is used to define the main content of a webpage?</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose one...</option>
+                    <option value="main">&lt;main&gt;</option>
+                    <option value="div">&lt;div&gt;</option>
+                    <option value="section">&lt;section&gt;</option>
+                </select>
+            </div>
+
+            <div class="quiz-item">
+                <label for="q1">4. In CSS, what is the numeric value (without "px") for the font size
+                    in this declaration?</label>
+                <code>font-size: 18px;</code>
+                <input type="number" id="q4" name="q4">
+            </div>
+
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+</body>
+
+</html>
