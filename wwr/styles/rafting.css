@@ -242,7 +242,7 @@ header nav a:hover{
 
 .contact-map iframe {
   width: 100%;
-  min-height: 260px;
+  height: 100%;
   border: 0;
 }
 
