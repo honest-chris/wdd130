@@ -205,7 +205,7 @@ header nav a:hover{
   max-width: 960px;
   margin: 2rem auto 2.5rem;
   padding: 1rem 2rem 2.5rem;
-  background-color: ;
+  background-color: #ffffff;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -346,8 +346,10 @@ employee img {
 
 .employee figcaption {
   margin-top: 0.4rem;
-  font-weight: 600;
+  font-weight:600;
 }
+
+
 /*-------Footer--------*/
 footer {
   display: grid;
