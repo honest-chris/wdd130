@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WWR- Oseghale Rafting Company - About us</title>
-    <meta name="description" content="Learn about Oseghale Rafting Company, our guides, and our mission to provide safe, exciting whitewater rafting adventures on beautiful rivers.">
+    <meta name="description"
+        content="Learn about Oseghale Rafting Company, our guides, and our mission to provide safe, exciting whitewater rafting adventures on beautiful rivers.">
     <meta name="author" content="Honest O. Christopher">
-    <link rel="stylesheet"  href="styles/rafting.css">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
+
 <body>
     <header>
         <div class="brand">
             <img src="images/logo.png" alt="WWR logo" class="logo">
-        </div>    
-        <nav>
+        </div>
+        <nav class="main-nav" aria-label="Main navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
@@ -24,85 +27,77 @@
     </header>
 
     <main>
-        <div class="hero">
+        <section class="hero about-hero" aria-labelledby="about-hero-heading">
             <img src="images/rafting.jpg" alt="Rafting action on the river">
-            <h1>Oseghale Rafting Company</h1>
-            <article>
-                <img src="images/rafting-small.jpg" alt="Happy client" class="client-photo">
-                <p>
-                    At Oseghale Rafting Company, our purpose is to create safe,
-                    exciting, and unforgettable river adventures. Our trained guides,
-                    quality gear, and respect for the river help every guest enjoy
-                    whitewater rafting with confidence.
-                </p>
-            </article>
-        </div>
+            <h1 id="about-hero-heading" class="hero-title">Oseghale Rafting Company</h1>
+
+            <section class="hero-about-intro">
+                <article>
+                    <h3>Our Mission</h3>
+                    <img src="images/rafting-small.jpg" alt="Happy client" class="client-photo">
+                    <p>
+                        At Oseghale Rafting Company, our purpose is to create safe,
+                        exciting, and unforgettable river adventures. Our trained guides,
+                        quality gear, and respect for the river help every guest enjoy
+                        whitewater rafting with confidence.
+                    </p>
+                </article>
+            </section>
+        </section>
 
         <section class="history">
             <h2>History</h2>
             <div class="history-grid">
                 <p>
-                Oseghale Rafting Company started with a small group of river
-                enthusiasts who loved sharing local rapids with friends and
-                family. Over time, those simple outings grew into guided trips,
-                training programs, and custom adventures for schools, families,
-                and community groups.
+                    Oseghale Rafting Company started with a small group of river
+                    enthusiasts who loved sharing local rapids with friends and
+                    family. Over time, those simple outings grew into guided trips,
+                    training programs, and custom adventures for schools, families,
+                    and community groups.
                 </p>
 
                 <img src="images/rafting_history.png" alt="Historic rafting moment">
 
                 <p>We are family owned and operated business dedicated to giving you
-                the best experience possible with experienced guides and quality guide.
+                    the best experience possible with experienced guides and quality guide.
                 </p>
-            </div>    
+            </div>
         </section>
 
         <section class="adventure">
             <h2>Adventure Awaits You!</h2>
             <div class="adventure-gallery">
-                <figure>
-                    <img src="images/rafting_one.png" alt="Los Dientes del Diablo rapid">
+                <figure><img src="images/rafting_one.png" alt="Los Dientes del Diablo rapid">
                     <figcaption>Los Dientes del Diablo</figcaption>
                 </figure>
 
-                <figure>
-                    <img src="images/rafting_two.png" alt="Big Mallard rapid">
+                <figure><img src="images/rafting_two.png" alt="Big Mallard rapid">
                     <figcaption>Big Mallard</figcaption>
                 </figure>
 
-                <figure>
-                    <img src="images/rafting_three.png" alt="Half Day Adventure">
+                <figure><img src="images/rafting_three.png" alt="Half Day Adventure">
                     <figcaption>Half Day Adventure</figcaption>
                 </figure>
 
-                <figure>
-                    <img src="images/rafting_four.png" alt="Full Day experience">
+                <figure><img src="images/rafting_four.png" alt="Full Day experience">
                     <figcaption>Full Day experience</figcaption>
                 </figure>
 
-                <figure>
-                    <img src="images/rafting_five.png" alt="Family Float trip">
+                <figure><img src="images/rafting_five.png" alt="Family Float trip">
                     <figcaption>Family Float</figcaption>
                 </figure>
             </div>
         </section>
     </main>
-
-
     <footer>
         <p> ©2025 Oseghale Rafting Company | Honest O. Christopher</p>
-        <nav class="socialmedia">
-            <a href="https://facebook.com" aria-label="Facebook">
-                <img src="images/facebook.png" alt="Facebook icon">
-            </a>
-            <a href="https://twitter.com" aria-label="X(twitter)">
-                <img src="images/x-bw.png" alt="X (twitter icon)">
-            </a>
-            <a href="https://instagram.com" aria-label="Instagram">
-                <img src="images/instagram.png" alt="Instagram icon">
-            </a>
+        <nav class="social" aria-label="social media">
+            <a href="https://facebook.com" aria-label="Facebook"><img src="images/facebook.png" alt="Facebook icon"></a>
+            <a href="https://twitter.com" aria-label="X(twitter)"><img src="images/x-bw.png" alt="X (twitter icon)"></a>
+            <a href="https://instagram.com" aria-label="Instagram"><img src="images/instagram.png"
+                    alt="Instagram icon"></a>
         </nav>
     </footer>
-
 </body>
+
 </html>
